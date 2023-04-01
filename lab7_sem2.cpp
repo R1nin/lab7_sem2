@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
     if (!in.is_open() && !out.is_open()){
 
         cout << "File opening error!\n";
-        out << "File opening error!\n";
+        
         exit(1);
     }
 
